@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "yavidorkubevirt/client/versioned"
-	kubevirtv1 "yavidorkubevirt/client/versioned/typed/core/v1"
-	fakekubevirtv1 "yavidorkubevirt/client/versioned/typed/core/v1/fake"
+	clientset "github.com/yavidor/yavidorkubevirt/client/versioned"
+	kubevirtv1 "github.com/yavidor/yavidorkubevirt/client/versioned/typed/core/v1"
+	fakekubevirtv1 "github.com/yavidor/yavidorkubevirt/client/versioned/typed/core/v1/fake"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

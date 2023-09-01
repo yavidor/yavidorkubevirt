@@ -5,7 +5,7 @@ package versioned
 import (
 	"fmt"
 	"net/http"
-	kubevirtv1 "yavidorkubevirt/client/versioned/typed/core/v1"
+	kubevirtv1 "github.com/yavidor/yavidorkubevirt/client/versioned/typed/core/v1"
 
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"

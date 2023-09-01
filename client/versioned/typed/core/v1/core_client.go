@@ -4,7 +4,7 @@ package v1
 
 import (
 	"net/http"
-	"yavidorkubevirt/client/versioned/scheme"
+	"github.com/yavidor/yavidorkubevirt/client/versioned/scheme"
 
 	rest "k8s.io/client-go/rest"
 	v1 "kubevirt.io/api/core/v1"

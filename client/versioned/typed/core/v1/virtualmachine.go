@@ -5,7 +5,7 @@ package v1
 import (
 	"context"
 	"time"
-	scheme "yavidorkubevirt/client/versioned/scheme"
+	scheme "github.com/yavidor/yavidorkubevirt/client/versioned/scheme"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
